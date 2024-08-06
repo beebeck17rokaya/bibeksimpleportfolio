@@ -1,0 +1,364 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(187, 177, 179);  
+
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    margin:auto;
+    padding: 15px ;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    height: 80px;
+    background-color:rgba(27, 107, 10, 0.24);
+    
+}
+.navbar img{
+    height:110px;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: -300px; 
+    position: relative;
+    top: 40px;
+    
+    
+
+    
+      
+    
+}
+
+
+ul{
+    margin-top: -5%;
+
+}
+ul li{
+    text-decoration-style: none;
+    text-align: center;
+    list-style:none;
+    display:inline-block;
+    padding: 10px 16px;
+}
+
+ul li a{
+    font-size:20px;
+    font-weight: bold;
+    text-decoration: none;
+    color:rgb(3, 0, 5);
+    margin-top: 0%;
+
+
+
+}
+ul li a:hover{
+    color: rgb(252, 6, 6);
+}
+.info{
+    font-weight: bold;
+    font-style: oblique;
+    margin-left: 9%;
+    margin-top: 11%;
+    font-display: rgb(32, 60, 184);
+
+}
+.info h1{
+    font-size: 38px;
+    color:rgb(36,32,30)
+
+}
+.info h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 26px;
+
+}
+.info span{
+    color: rgb(131, 7, 156);
+}
+.info a{
+    text-decoration: none;
+    color: #fff;
+    background: rgb(36,32,30);
+    margin:26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: .4s ease;
+
+}
+.info a:hover{
+    background:rgb(59,174,209);
+}
+.image{
+    width:30%;
+    height:60%;
+    position:absolute;
+    right:100px;
+    bottom:0;
+
+
+}
+.image img{
+    position: absolute;
+    height: 120%;
+    left:40%;
+    transform: translate(-30%);
+    bottom:0;
+    transition: left 2s ease;
+
+    
+
+
+}
+.image:hover .girl{
+    left: 55%;
+
+}
+.icons a{
+    text-decoration: none;
+    color:#000;
+
+
+}
+.icons ion-icon{
+    margin-left: 5%;
+    color:#000;
+    margin-right: -60p;
+    margin-top: 2%;
+    font-size: 40px;
+    transition: .4s ease;
+}
+.icons ion-icon:hover{
+    color:rgb(59,174,209);
+}
+
+
+.skills {
+    padding: 50px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.skills h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.skill {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: left;
+}
+
+.skill h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.skill p {
+    font-size: 1em;
+    color: #666;
+}
+
+
+
+.skill h3:hover{
+    background:rgb(189, 30, 9);
+}
+
+
+.skill:hover h3,
+.skill:hover p {
+    color: blue;
+}
+
+
+
+
+.about {
+    padding: 20px;
+    text-align: center;
+}
+
+.about h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.about-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.about-text {
+    max-width: 800px;
+    line-height: 1.6;
+    font-size: 1.2em;
+}
+
+.about-text p {
+    margin: 10px 0;
+}
+
+
+/* My Works Section */
+.works {
+    padding: 20px;
+    text-align: center;
+}
+
+.works h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.works-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.work-item {
+    background: #f4f4f4;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 300px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.work-item img {
+    width: 100%;
+    border-radius: 10px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.work-item h2 {
+    font-size: 1.8em;
+    margin: 10px 0;
+}
+
+.work-item p {
+    font-size: 1em;
+    color: #333;
+}
+
+.work-item a {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 1em;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.work-item a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+/* Basic reset for margins and paddings */
+body, h3, fieldset, label, input, select, textarea {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Overall body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+/* Form container styling */
+fieldset {
+    border: 2px solid #007BFF;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+/* Legend styling */
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #007BFF;
+}
+
+/* Label styling */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Input and select field styling */
+input[type="text"], input[type="password"], input[type="number"], select, textarea {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+/* Radio and checkbox styling */
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Button styling */
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Textarea styling */
+textarea {
+    resize: vertical; /* Allow vertical resizing */
+    min-height: 100px;
+}
